@@ -1,0 +1,29 @@
+ :root{ 
+    --cor_titulo: rgb(198, 231, 12);
+    --cor_fundo: black;
+}
+body{
+    color:brown;
+    background-color: antiquewhite;(--cor_fundo);
+}
+body:hover{
+    color:whitesmoke;
+}
+section{
+    text-align:center;
+    height: 900px;
+    margin: 40px;
+    border:solid  greenyellow
+}
+
+.h1{
+    color: blue;(--cor_titulo)
+}
+button{
+    padding:10px;
+    border-radius:10px;
+    margin:30px;
+    color:aliceblue;(--color_button)
+
+
+}
